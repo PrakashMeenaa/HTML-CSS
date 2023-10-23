@@ -12,10 +12,20 @@ p{
     column-gap: 8px;
     row-gap: 16px;
     margin-left: 11px;
-    
+}
+@media (min-width: 1000px){
+    .main{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media( max-width: 750px){
+    .main{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 .thumbnail1{
     position: relative;
+    border-radius: 20px;
 }
  .content{
     display: grid;
@@ -39,6 +49,7 @@ p{
 }
 .pic{
     width: 100%;
+    border-radius: 20px;
 }
 .title{
     margin-top: 8px;

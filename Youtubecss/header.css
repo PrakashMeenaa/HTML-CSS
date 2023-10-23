@@ -53,9 +53,7 @@ padding: 15px;
 border-top-left-radius: 30px;
 border-bottom-left-radius: 30px;
 height: 10px;
-border-width: 1px;
-border-color: #ccc;
-border-style: solid;
+border: 1px solid rgb(192,192,192);
 box-shadow: inset 0px 0px .05px rgba(0, 0, 0, 0.15);
 
 }
@@ -66,7 +64,6 @@ font-weight: 400;
 }
 .search-button{
 display: flex;
-
 align-items: center;
 justify-content: center;
 width: 66px;
@@ -116,7 +113,6 @@ border: none;
 position: relative;
 cursor: pointer;
 display: flex;
-
 align-items: center;
 justify-content: center;
 
@@ -131,10 +127,8 @@ border-radius: 17.5px;
     right: -2px;
     background-color: rgb(237, 20, 20);
     color: white;
-    padding: 2px;
-    padding-left: 6px;
-    padding-right: 6px;
-    border-radius: 10px;
+    padding: 2px 6px;
+   border-radius: 10px;
 }
 .hoveringsearch,.hoveringvoicesearch,.hoveringyoutubeapps,.hoveringnotification,.hoveringupload{
     position: absolute;
